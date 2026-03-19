@@ -5,7 +5,14 @@ Deploy the homelab network map as a lightweight container using `nginx:alpine`.
 - Docker and Docker Compose installed
 - The `dist/` folder from a production build (`npm run build`)
 
-## Quick Start
+## Fastest Start - Use a Release
+Download the latest release from the [releases page](https://github.com/elysiummachines/homelab-map/releases) it includes a pre-built `dist/` folder so you can skip `npm install` and `npm run build` entirely.
+
+1. Download and extract the release zip
+2. Place the `dist/` folder in the same directory as `docker-compose.yaml`
+3. Run `docker compose up -d`
+
+## Build Start
 1. Build the project:
 
 ```bash

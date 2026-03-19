@@ -17,7 +17,7 @@
 
 ## Overview
 
-Homelab Map is a React + Vite web application that provides an interactive visual representation of my homelab — including devices, services, and network topology.
+Homelab Map is a React + Vite web application that provides an interactive visual representation of my homelab - including devices, services, and network topology.
 
 ## Features
 
